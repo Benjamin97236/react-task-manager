@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(65, 65, 65);
+}
+
+.link {
+  text-decoration: none;
+  outline: none;
+}
+
+select {
+  outline: none;
+  padding: 5px;
+  min-width: 100px;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.header-container a {
+  margin: 10px;
+}
+
+.component-container-body {
+  width: 60%;
+  min-height: 90vh;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-controls {
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.regular-checkbox {
+  margin-left: 20px;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  
+  background-color: rgb(228, 173, 230);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: rgb(231, 231, 231); 
+  border-radius: 10px;
+  border: 1px solid rgb(221, 221, 221);
+  margin-bottom: 30px;
+}
+
+.invisible {
+  display: none;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.form-subcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 70px;
+}
+
+.regular-input, .regular-textarea {
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(141, 141, 141);
+  font-size: 16px;
+}
+
+.regular-input {
+  height: 50px;
+}
+
+.regular-textarea {
+  height: 200px;
+}
+
+/* todos styling */
+
+.todos-holder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-container {
+  width: 100%;
+  height: auto;
+  background-color: rgb(238, 238, 238); 
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-description {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-left: 1px solid grey;
+  max-height: 300px;
+  word-wrap: break-word;
+}
+
+.todo-container button {
+  margin-right: 10px;
+}
+
+div.fadeOut {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+div.completed {
+  background: none;
+  border: 1px solid grey;
+}
+
+/* Footer styling */
+.footer {
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(221, 221, 221);
+  height: 150px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
